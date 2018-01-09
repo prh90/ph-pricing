@@ -3,14 +3,13 @@ import pymongo
 
 
 class Database(object):
-    URI = os.environ.get("MONGOLAB_URI")
+    URI = os.environ.get('MONGOLAB_URI')
     DATABASE = None
 
     @staticmethod
     def initialize():
         client = pymongo.MongoClient(Database.URI)
         Database.DATABASE = client.get_database()
-
 
     @staticmethod
     def insert(collection, data):
