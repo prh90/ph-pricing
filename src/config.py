@@ -1,6 +1,6 @@
+import os
+
 DEBUG = True
 
 # no duplicate values
-ADMINS = frozenset([
-    "pablorhernandez1@gmail.com"
-])
+ADMINS = frozenset([os.environ.get('ADMIN_EMAIL')])
