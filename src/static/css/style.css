@@ -1,0 +1,94 @@
+body{
+    position: relative;
+}
+
+#body-div{
+    background: url("http://mdbootstrap.com/img/Photos/Others/img%20(42).jpg")no-repeat center center;
+    background-size: 100% 100%;
+    vertical-align: top;
+    height: 760px;
+    top: 0%;
+}
+
+#footer {
+    bottom: 0%;
+    text-align: center;
+    font-size: 150%;
+    color: black;
+    vertical-align: bottom;
+    font-style: italic;
+}
+
+#nav-bar {
+    background: transparent;
+}
+
+#nav-bar a:hover {
+    background-color: white;
+    opacity: .5;
+}
+
+.form-size {
+    border-radius: 25px;
+    border: 3px solid #00ffee;
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #00FFFF;
+    padding: 20px;
+}
+
+#small #alert-des{
+    color: black;
+}
+
+#alert-info {
+    border-radius: 25px;
+    padding-left: 25px;
+    background-color: rgb(255, 255, 255, .5)
+}
+
+.home-ex{
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255, .5);
+    padding: 25px;
+    font-size: 200%;
+}
+
+#home-h1, #jumboh {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.jumbo{
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255, .5);
+    padding: 25px;
+    font-size: 200%;
+}
+
+#store-op, #alert-op{
+    background: rgb(255, 255, 255, .5);
+}
+
+#small{
+    color: black;
+    text-decoration: underline;
+}
+
+#alerts_home, #home{
+    margin-top: 8%;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+#alerts-btn{
+    text-align: center;
+}
+
+.store-add{
+    background: rgb(236, 245, 70, .5);
+    text-align: center;
+}
